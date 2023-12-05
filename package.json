@@ -1,0 +1,21 @@
+{
+   "name": "snowflake-sql",
+   "displayName": "Snowflake SQL",
+   "description": "Syntax Highlighting for Snowflake SQL",
+   "version": "0.0.1",
+   "engines": {
+      "vscode": "^1.84.0"
+   },
+   "categories": [
+      "Programming Languages"
+   ],
+   "contributes": {
+      "grammars": [
+         {
+            "language": "snowflake-sql",
+            "scopeName": "source.snowflake-sql",
+            "path": "./syntaxes/sql.tmLanguage.json"
+         }
+      ]
+   }
+}
