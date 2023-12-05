@@ -3,6 +3,7 @@
    "displayName": "Snowflake SQL",
    "description": "Syntax Highlighting for Snowflake SQL",
    "version": "0.0.1",
+   "publisher": "brandonhauer",
    "engines": {
       "vscode": "^1.84.0"
    },
@@ -17,5 +18,9 @@
             "path": "./syntaxes/sql.tmLanguage.json"
          }
       ]
+   }   
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/brandonhauer/snowflake-sql"
    }
 }
